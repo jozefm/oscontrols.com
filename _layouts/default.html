@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }} - {{ site.title}}{% else
+        %}{{ site.title
+        }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" id="style-maintenance-css" href="{{ "/assets/plugins/wp-ultimate-csv-importer/assets/css/style-maintenance9dff.css" | relative_url }}" type="text/css" media="all" />
+    <link rel="stylesheet" id="wp-block-library-css" href="{{ "/assets/css/dist/block-library/style.min9dff.css" | relative_url }}" type="text/css" media="all" />
+    <link rel="stylesheet" id="cf7mls-css" href="{{ "/assets/plugins/cf7-multi-step/assets/frontend/css/cf7mls9dff.css" | relative_url }}" type="text/css" media="all" />
+    <link rel="stylesheet" id="contact-form-7-css" href="{{ "/assets/plugins/contact-form-7/includes/css/styles33a6.css" | relative_url }}" type="text/css" media="all" />
+    <link rel="stylesheet" id="style-css" href="{{ "/assets/css/style9dff.css" | relative_url }}" type="text/css" media="all" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ "/assets/js/jquery.bxslider.min.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/respond.min.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/spin.min.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/jquery.spin.js" | relative_url }}"></script>
+    <link href="{{ "/assets/css/main.css" | relative_url }}" rel="stylesheet">
+    {% if page.meta_description %}
+    <meta name="description" content="{{ page.meta_description }}" />{% endif %}
+    {% if page.meta_og_title %}
+    <meta property="og:title" content="{{ page.meta_og_title }}" />{% endif %}
+    {% if page.meta_og_type %}
+    <meta property="og:type" content="{{ page.meta_og_type }}" />{% endif %}
+    {% if page.meta_og_url %}
+    <meta property="og:url" content="{{ page.meta_og_url }}" />{% endif %}
+    {% if page.meta_og_image %}
+    <meta property="og:image" content="{{ page.meta_og_image }}" />{% endif %}
+    {% if page.meta_og_description %}
+    <meta property="og:description" content="{{ page.meta_og_description }}" />{% endif %}
+    {% if page.meta_twitter_card %}
+    <meta name="twitter:card" content="{{ page.meta_twitter_card }}" />{% endif %}
+    {% if page.meta_twitter_site %}
+    <meta name="twitter:site" content="{{ page.meta_twitter_site }}" />{% endif %}
+    {% if page.meta_twitter_creator %}
+    <meta name="twitter:creator" content="{{ page.meta_twitter_creator }}" />{% endif %}
+</head>
+
+{{content}}
+<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.form.min50fa.js" | relative_url }}"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var cf7mls_object = { "ajax_url": "https:\/\/www.powereng.com\/wp-admin\/admin-ajax.php", "cf7mls_error_message": "", "scroll_step": "false" };
+/* ]]> */
+</script>
+<script type="text/javascript" src="{{ "/assets/plugins/cf7-multi-step/assets/frontend/js/cf7mls5152.js" | relative_url }}"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = { "apiSettings": { "root": "https:\/\/www.powereng.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" }, "recaptcha": { "messages": { "empty": "Please verify that you are not a robot." } } };
+/* ]]> */
+</script>
+<script type="text/javascript" src="{{ "/assets/plugins/contact-form-7/includes/js/scripts33a6.js" | relative_url }}"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var leadin_wordpress = { "userRole": "visitor", "pageType": "home", "leadinPluginVersion": "7.5.2" };
+/* ]]> */
+</script>
+<!-- <script type="text/javascript" async defer src="../js.hs-scripts.com/4836571c5e9.js" | relative_url }}?integration=wordpress&amp;ver=5.3.2"></script> -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax = { "url": "https:\/\/www.powereng.com\/wp-admin\/admin-ajax.php" };
+/* ]]> */
+</script>
+<script type="text/javascript" src="{{ "/assets/js/global9dff.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/placeholder_polyfill.jquery.min.combo9dff.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/wp-embed.min9dff.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/scripts.min.js" | relative_url }}"></script>
+{% include google-analytics.html %}
+</body>
+
+</html>

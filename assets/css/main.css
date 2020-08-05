@@ -1,0 +1,50 @@
+@import url("/assets/css/lightbox-corporate/contraster-lity.html");
+hr {
+  height: 3px;
+  border: none;
+  background: #8e8e8e;
+  margin-bottom: 30px !important;
+}
+.uas-thumb {
+  float:left;
+  width:30%;
+  display: block;
+}
+.uas-thumb img {
+  width:100%;
+  display: block;
+}
+.uas-thumb:hover {
+  opacity: .7;
+}
+.uas-description {
+  float: right;
+  width: 65%;
+  margin-left:5%;
+  display: block;
+}
+.accordion section div {
+  overflow: hidden;
+}
+.uas-clearfix {
+  display: block;
+  clear: both;
+}
+.accordion-bg {
+  display: block;
+  overflow: hidden;
+  margin: -20px;
+  padding: 20px;
+  background: #e4e4e4;
+}
+@media only screen and (max-width: 1023px) and (orientation: portrait) {
+.uas-thumb {
+  float:none;
+  width:100%;
+}.uas-description {
+   float: right;
+   width: 100%;
+   margin-left: 0;
+   display: block;
+}
+}
