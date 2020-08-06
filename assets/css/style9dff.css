@@ -299,14 +299,14 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   color: #272727;
 }
 .search_link:hover {
-  color: #f34f34;
+  color: #005A9C;
 }
 .global_nav {
   font-family: 'NovecentowideUltraLightBold', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 12px;
-  color: #f34f34;
+  color: #005A9C;
 }
 .global_nav:hover {
   font-family: 'NovecentowideLightBold', sans-serif;
@@ -324,7 +324,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
 }
 .drop_down:hover,
 .side_nav:hover {
-  color: #f34f34;
+  color: #005A9C;
 }
 .side_nav_header {
   font-family: 'NovecentowideUltraLightBold', sans-serif;
@@ -388,7 +388,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
 .full_page h1,
 .page > h1 {
   background: url(img/topbar-pattern.jpg);
-  color: #f34f34;
+  color: #005A9C;
   font-family: 'NovecentowideBookRegular', sans-serif;
   font-size: 34px;
   line-height: 53px;
@@ -415,13 +415,13 @@ input[type=file] > input[type=button]::-moz-focus-inner {
 .full_page h1 .related-service:hover,
 .page > h1 .related-service:hover {
   background-position: right -14px;
-  color: #f34f34;
+  color: #005A9C;
 }
 .left_page h1 {
   padding-left: 260px;
 }
 .left_page h3 {
-  color: #f34f34;
+  color: #005A9C;
   text-transform: uppercase;
 }
 .right_page {
@@ -451,7 +451,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   line-height: 20px;
 }
 .right_page article a {
-  color: #f34f34;
+  color: #005A9C;
 }
 .right_page article a:hover {
   text-decoration: underline;
@@ -464,7 +464,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   background: #ffffff;
 }
 .right_page .post-list a {
-  color: #f34f34;
+  color: #005A9C;
   font: 12px 'NovecentowideUltraLightBold', sans-serif;
   display: block;
 }
@@ -473,7 +473,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   padding: 0 20px;
 }
 .right_page .post-list .list-heading h2 {
-  color: #f34f34;
+  color: #005A9C;
   font: 19px 'NovecentowideUltraLightBold', sans-serif;
   line-height: 52px;
   float: left;
@@ -489,7 +489,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   padding-right: 20px;
 }
 .right_page .post-list .list-heading a:hover {
-  color: #f34f34;
+  color: #005A9C;
   background-position: right -14px;
 }
 .right_page .post-list ul {
@@ -499,7 +499,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   background: url(img/sidebar-arrow-orange.png) no-repeat center right;
 }
 .right_page .post-list ul li:hover p {
-  color: #f34f34;
+  color: #005A9C;
   text-decoration: underline;
 }
 .right_page .post-list ul li:hover .date {
@@ -809,7 +809,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#b3000000,EndColorStr=#b3000000);
   zoom: 1;
   display: block;
-  color: #f34f34;
+  color: #005A9C;
   padding: 11px 0 10px 20px;
   font-family: 'NovecentowideBookRegular', sans-serif;
   text-transform: uppercase;
@@ -975,7 +975,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   float: left;
 }
 .search .results .count .total .term {
-  color: #f34f34;
+  color: #005A9C;
 }
 .search .results .count .pagenum {
   font-family: 'AmbleRegular', sans-serif;
@@ -1002,7 +1002,7 @@ input[type=file] > input[type=button]::-moz-focus-inner {
   margin-bottom: 6px;
 }
 .search .results .list li a {
-  color: #f34f34;
+  color: #005A9C;
   font-family: 'AmbleRegular', sans-serif;
 }
 .filters {
@@ -1113,7 +1113,7 @@ ul.event-summary li {
   font-family: 'AmbleBold', sans-serif;
 }
 .event-badge .info .location {
-  color: #f34f34;
+  color: #005A9C;
   font-family: 'AmbleItalic', sans-serif;
 }
 .event-badge .info .fulldate {
@@ -1152,7 +1152,7 @@ ul.event-summary li {
   font: 13px/24px 'AmbleRegular', sans-serif;
 }
 .full_page div.contact a {
-  color: #f34f34;
+  color: #005A9C;
 }
 .full_page div.contact a:hover {
   text-decoration: underline;
@@ -1454,7 +1454,7 @@ p.right {
   padding: 0 20px 18px 0px;
 }
 #body_styles a {
-  color: #f34f34;
+  color: #005A9C;
 }
 #body_styles a:hover {
   text-decoration: underline;
@@ -1574,7 +1574,7 @@ p.right {
 .single article a,
 .archive article a,
 .search article a {
-  color: #f34f34;
+  color: #005A9C;
 }
 .page article a:hover,
 .single article a:hover,
@@ -1656,7 +1656,7 @@ p.right {
   padding: 0 20px 18px 0px;
 }
 .wp-editor a {
-  color: #f34f34;
+  color: #005A9C;
 }
 .wp-editor a:hover {
   text-decoration: underline;
@@ -1689,12 +1689,12 @@ div.accordion section > h3 {
   -ms-text-overflow: ellipsis;
 }
 div.accordion section > h3:hover {
-  color: #f34f34;
+  color: #005A9C;
   background-position: 97% -51px;
 }
 div.accordion section > h3.open,
 div.accordion section > h3.open:hover {
-  color: #f34f34;
+  color: #005A9C;
   background-position: 97% -124px;
 }
 div.accordion section.last h3 {
@@ -1716,7 +1716,7 @@ header > a {
   float: left;
   width: 240px;
   height: 80px;
-  background: url(../images/logo.png) 24px 18px no-repeat transparent;
+  /*background: url(../images/logo.png) 24px 18px no-repeat transparent;*/
 }
 header .menu {
   float: left;
@@ -1739,7 +1739,7 @@ header .menu > .menu-item > a {
   min-height: 50px;
   border-right: 1px solid #818181;
   margin-top: 20px;
-  color: #f34f34;
+  color: #005A9C;
   font-size: 12px;
   font-family: 'NovecentowideUltraLightBold', sans-serif;
   text-transform: uppercase;
@@ -1805,7 +1805,7 @@ header .menu .sub-menu .menu-item:hover {
 }
 header .menu .sub-menu .menu-item:hover a {
   border-bottom: 1px solid #ffffff;
-  color: #f34f34;
+  color: #005A9C;
 }
 .slides {
   width: 100%;
@@ -1880,7 +1880,7 @@ header .menu .sub-menu .menu-item:hover a {
   margin-right: 10px;
 }
 .slides .bx-controls .bx-pager-item a.active {
-  background-color: #f34f34;
+  background-color: #005A9C;
 }
 /*
  //hide ie8/7 polyfill
@@ -1984,7 +1984,7 @@ header .menu .sub-menu .menu-item:hover a {
   color: #272727;
 }
 .searchbar a:hover {
-  color: #f34f34;
+  color: #005A9C;
 }
 .callouts li {
   display: block;
@@ -2062,10 +2062,10 @@ header .menu .sub-menu .menu-item:hover a {
   background-image: url(img/cta-bkg-blue.jpg);
 }
 .callouts li.third {
-  border-top-color: #f34f34;
+  border-top-color: #005A9C;
 }
 .callouts li.third h1 {
-  color: #f34f34;
+  color: #005A9C;
 }
 .callouts li.third a {
   background-image: url(img/cta-bkg-orange.jpg);
@@ -2251,7 +2251,7 @@ nav.secondary {
   position: relative;
 }
 nav.secondary ul li:first-child {
-  background-color: #f34f34;
+  background-color: #005A9C;
   color: #ffffff;
   font: 15px 'NovecentowideBookRegular', sans-serif;
   line-height: 16px;
@@ -2276,7 +2276,7 @@ nav.secondary ul li:first-child a.borderless-sibling {
   padding: 20px 20px 19px 0 !important;
 }
 nav.secondary ul li:first-child.current-menu-item {
-  background: url(img/cta-arrow.png) 211px center no-repeat #f34f34;
+  background: url(img/cta-arrow.png) 211px center no-repeat #005A9C;
 }
 nav.secondary ul li:first-child.current-menu-item a {
   border-bottom: none;
@@ -2314,7 +2314,7 @@ nav.secondary ul li.current-menu-item {
   background: url(img/sidenav-arrow.png) 211px center no-repeat #ffffff;
 }
 nav.secondary ul li.current-menu-item a {
-  color: #f34f34;
+  color: #005A9C;
   border: none;
   padding-bottom: 15px;
 }
@@ -2358,7 +2358,7 @@ aside section {
   margin-bottom: 20px;
 }
 aside .contact {
-  background-color: #f34f34;
+  background-color: #005A9C;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
@@ -2421,7 +2421,7 @@ aside .careers h2 {
   font-size: 19px;
   margin: 0 0 5px 0;
   font-family: 'NovecentowideUltraLightBold', sans-serif;
-  color: #f34f34;
+  color: #005A9C;
   text-transform: uppercase;
 }
 aside .careers a {
@@ -2460,7 +2460,7 @@ aside .whoweare p {
   color: #272727;
 }
 aside .location {
-  background-color: #f34f34;
+  background-color: #005A9C;
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -2536,7 +2536,7 @@ aside .related_content ul li:hover a {
   background: url(img/sidebar-arrow-orange.png) no-repeat center right;
 }
 aside .related_content ul li:hover p {
-  color: #f34f34 !important;
+  color: #005A9C !important;
   text-decoration: underline;
 }
 aside .related_content ul li a {
@@ -2598,7 +2598,7 @@ div.left_column aside .whoweare a {
 .locations article h2 {
   background: #e8e6e3;
   padding: 0 20px;
-  color: #f34f34;
+  color: #005A9C;
   font: 19px 'NovecentowideUltraLightBold', sans-serif;
   line-height: 52px;
   margin: 0 0 20px 0;
