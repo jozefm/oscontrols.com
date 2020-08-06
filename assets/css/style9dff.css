@@ -1716,7 +1716,7 @@ header > a {
   float: left;
   width: 240px;
   height: 80px;
-  background: url(img/power-logo.png) 24px 18px no-repeat transparent;
+  background: url(../images/logo.png) 24px 18px no-repeat transparent;
 }
 header .menu {
   float: left;
