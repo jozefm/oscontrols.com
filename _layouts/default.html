@@ -38,7 +38,7 @@
 		<meta name="twitter:creator" content="{{ page.meta_twitter_creator }}" />{% endif %}
 	</head>
 
-	<body class="home blog">
+	<body class="{{ page.body_classes }}">
 		{{content}}
 	</body>
 	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.form.min50fa.js" | relative_url }}"></script>
