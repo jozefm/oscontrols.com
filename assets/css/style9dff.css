@@ -2169,7 +2169,7 @@ footer .left .links-text a:first-child {
   padding-left: 0;
 }
 footer .right {
-  background: url(img/footer-seal.png) right 4px no-repeat transparent;
+  background: #000 right 4px no-repeat transparent;
   text-align: right;
   height: 100px;
 }
