@@ -1,17 +1,30 @@
 ---
-layout: default
+layout: single
 permalink: /404.html
-title: 404 Page not found :(
-subtitle: The requested page could not be found.
+body_classes: "error404"
+title: 404 - Page Cannot Be Found
+subtitle: We cannot find the page you’re looking for. The name of the page may have changed, or the page may have been removed. <br />Check if the page address was entered correctly or try looking for the page in the search bar above.
 ---
-
-<div class="intro intro-big">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.subtitle }}</p>
-      </div>
-    </div>
-  </div>
+<div class="page">
+	<div class="left_page">
+		<h1>{{ page.title }}</h1>
+		<article>
+			<p>{{ page.subtitle }}</p>
+		</article>
+	</div>
+<!-- 	<aside class="right">
+		<section class="careers">
+			<a href="#">
+				<h2>Join Our Team</h2>
+				<p>See career opportunities.</p>
+			</a>
+		</section>
+		<section class="whoweare">
+			<div class="rule"></div>
+			<a href="#">
+				<h2>Who We Are</h2>
+				<p>Learn about us.</p>
+			</a>
+		</section>
+	</aside> -->
 </div>
