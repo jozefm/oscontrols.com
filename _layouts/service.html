@@ -1,0 +1,14 @@
+---
+layout: page
+---
+{% include left-sidebar.html %}
+<div class="center_page">
+	<figure style="background: url({{ page.image | relative_url }}) center 30% no-repeat transparent;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src={{ page.image | relative_url }}, sizingMethod=scale);-ms-filter: " progid:DXImageTransform.Microsoft.AlphaImageLoader(src={{ page.image | relative_url }}, sizingMethod=scale)";">
+		<div class="pattern"></div>
+		<figcaption>{{ page.title }}</figcaption>
+	</figure>
+	<article>
+		{{ content}}
+	</article>
+	{% include right-sidebar.html %}
+</div>
