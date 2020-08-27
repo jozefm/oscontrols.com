@@ -1,4 +1,5 @@
 ---
+body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
 layout: service
 title: "facilities"
 image: "assets/images/icons/icon-1.png"
