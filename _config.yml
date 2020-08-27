@@ -6,10 +6,6 @@ description: "OS Controls is about..."
 collections_dir: collections
 markdown: kramdown
 
-sass:
-  sass_dir: _sass
-  style: compact # possible values: nested expanded compact compressed
-
 collections:
   our-services:
     output: true
