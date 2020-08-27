@@ -14,41 +14,37 @@ collections:
   our-services:
     output: true
     permalink: /:collection/:path/
-    layout: service
-    body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
   cyber:
     output: true
     permalink: /:collection/:path/
-    layout: service
-    body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
   data-center:
     output: true
     permalink: /:collection/:path/
-    layout: service
-    body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
   process-control:
     output: true
     permalink: /:collection/:path/
-    layout: service
-    body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
 
 defaults:
   - scope:
       type: services
     values:
       layout: service
+      body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
   - scope:
       type: cyber
     values:
-      layout: service
+      layout: cyber
+      body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
   - scope:
       type: data-center
     values:
-      layout: service
+      layout: datacenter
+      body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
   - scope:
       type: process-control
     values:
-      layout: service
+      layout: processcontrol
+      body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
   - scope:
       path: "pages"
     values:
