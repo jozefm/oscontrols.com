@@ -1,40 +1,11 @@
+{% assign sorted_list = site.data-center | sort: 'weight' %}
 <div class="left_column">
 	<nav class="secondary">
 		<ul>
-			<li class="current-menu-item"><a href="{{ "/" | relative_url }}" class="">FACILITIES</a></li>
-			<li class="">
-				<a href="{{ "architecture/" | relative_url }}" class="architecture">SCADA ARCHITECTURE</a>
-			</li>
-			<li class="">
-				<a href="{{ "renewable-energy/" | relative_url }}" class="renewable-energy">CLEAN COAL/WIND</a>
-			</li>
-			<li class="">
-				<a href="{{ "energy-resiliency/" | relative_url }}" class="energy-resiliency">PROCESS CONTROLS</a>
-			</li>
-			<li class="">
-				<a href="{{ "power-delivery/" | relative_url }}" class="power-delivery">Power Monitoring</a>
-			</li>
-			<li class="">
-				<a href="{{ "intelligence/" | relative_url }}" class="mission-critical-infrastructure">Critical Infrastructure</a>
-			</li>
-			<li class="">
-				<a href="{{ "power-generation/" | relative_url }}" class="power-generation">Power Generation</a>
-			</li>
-			<li class="">
-				<a href="{{ "scadacybersecurity/" | relative_url }}" class="industrial-controls-and-scada">Industrial Controls and SCADA</a>
-			</li>
-			<li class="">
-				<a href="{{ "cyber-security/" | relative_url }}" class="cyber-security">Cyber Security</a>
-			</li>
-			<li class="">
-				<a href="{{ "environmental-services/" | relative_url }}" class="environmental-services">Data Center</a>
-			</li>
-			<li class="">
-				<a href="{{ "small-business-registration/" | relative_url }}" class="building-management">Building Management</a>
-			</li>
-			<li class="">
-				<a href="{{ "federal-contracts/" | relative_url }}" class="federal-contracts">DoD Contracts</a>
-			</li>
+			<li><a href="{{ "/" | relative_url }}" class="">FACILITIES</a></li>
+			{% for item in sorted_list %}
+			<li><a {% if item.url==page.url %} class="current-menu-item" {% endif %} href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+			{% endfor %}
 		</ul>
 	</nav>
 	<aside class="left">
