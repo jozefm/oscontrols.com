@@ -20,13 +20,13 @@ A list of systems that can be monitored or controlled by a BMS are shown below:
     Security and observation
     RTU, PLC's, Scada Controls
     Fire alarm system
-    Lifts, elevators etc.
+    Lifts, elevators Networks
     Chillers Controls
     Closed-circuit television (CCTV)
     Engineering systems
     Control Panel RTU
     Generator Networks
-    Alarm Monitor
+    Sensor Alarm Networks
     Security Automation
-    Elevator Networks
+    Wireless Networks
     Lawn Sprinker Systems 
