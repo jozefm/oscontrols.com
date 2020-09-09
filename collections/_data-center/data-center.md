@@ -2,7 +2,7 @@
 body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
 layout: cyber
 title: "Data Center"
-image: "assets/images/banner-small.jpg"
+image: "assets/images/banner-small2.jpg"
 permalink: "/data-center"
 ---
 
