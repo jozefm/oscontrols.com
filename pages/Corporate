@@ -1,0 +1,14 @@
+---
+body_classes: "page-template page-template-tpl_c_main_content page-template-tpl_c_main_content-php page page-id-186 page-parent page-child parent-pageid-10"
+layout: page
+title: "contact"
+---
+<div class="full_page">
+	<div class="contact">
+		<h1>Contact Us</h1>
+		<div class="form">
+			<p>221B.LTD is the Parent Corporation for OS.Controls</p> admin@oscontrols.com
+			<p>If you're looking for phone numbers or office addresses, visit the <a href="/pages/locations/corporate.html" title="Locations">Head Quarters</a> page.</p>
+		</div>
+	</div>
+</div>
